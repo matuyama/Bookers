@@ -33,6 +33,14 @@ h1{
   display: block;
   font-size: 2em;
   margin: 0.67em 0;
+  font-weight: bold;
+}
+
+h2{
+  display: block;
+  font-size: 1.5em;
+  margin: 0.83em 0;
+  font-weight: bold;
 }
 
 strong{
@@ -44,9 +52,91 @@ p{
   margin: 1em 0;
 }
 
-p{
+p, ol, ul, tb{
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
 }
+
+a{
+  color: #000;
+}
+
+a:visited{
+  color: #666;
+}
+
+div{
+  display: block;
+}
+
+table{
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+thead{
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+
+tr{
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th{
+  padding: 5px;
+}
+
+td{
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.flash_errors{
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0px;
+  margin-bottom:20px;
+  background-color: #f0f0f0;
+}
+
+.flash_errors h2{
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+
+.flash_errors ul li{
+  font-size: 12px;
+  list-style: square;
+}
+
+.error_messages{
+  padding-left: 40px;
+}
+
+.field, .actions{
+  margin-bottom: 10px;
+}
+
+.notice{
+  color: green;
+}
+
